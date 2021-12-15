@@ -1,0 +1,24 @@
+.list {
+  padding: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.item button {
+  margin-left: 20px;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+button:hover {
+  background: rgb(255, 255, 255);
+}

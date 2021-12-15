@@ -1,0 +1,25 @@
+.form {
+  padding: 15px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+.input {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.button {
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: rgb(255, 255, 255);
+}
